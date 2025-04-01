@@ -4,6 +4,8 @@
 ## Project Description
 This project is a REST API for storing and sharing SWIFT data from a file. The application uses **TypeScript**, **Node.js**, **Express**, **Prisma** and **PostgreSQL**. **Prisma** was chosen for its strong type safety and developer-friendly API, which makes working with databases in TypeScript and JavaScript projects more efficient and error-free. Its powerful features like automatic migrations, performance optimization, and flexibility in supporting multiple databases make it an ideal choice for modern applications. The whole thing is not containerized using **Docker**, I couldn't get this step right.
 
+Code and Scripts are located in **"SwiftCodes/src"**.
+
 1. **Download the file from the Releases**
 - Download the **SwiftCodes.zip** file, then unzip it.
 - Open the command line and navigate to the project folder named SwiftCodes by:
@@ -72,3 +74,10 @@ npm test -- storeData.test.ts
 ```
 
 If you want to terminate the index.ts script or any other .ts script, click **CTRL+C** while in the command line.
+
+5. **Parse SWIFT codes Data**
+   - The project also includes a **storeData.ts** script that parses the excel file and sends it to the database.
+   - While in the SwiftCodes folder you can run this script like this:
+     ```cmd
+     npx ts-node src/storeData.ts
+     ``` 
