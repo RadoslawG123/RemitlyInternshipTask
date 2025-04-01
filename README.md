@@ -6,7 +6,7 @@ This project is a REST API for storing and sharing SWIFT data from a file. The a
 
 Code and Scripts are located in **"SwiftCodes/src"**.
 
-1. **Download the file from the Releases**
+**1. Download the file from the Releases**
 - Download the **SwiftCodes.zip** file, then unzip it.
 - Open the command line and navigate to the project folder named SwiftCodes by:
 ```cmd
@@ -14,7 +14,7 @@ cd "PATH"
 ```
 - You can minimize the command line for now
 
-2. **Prerequisites**
+**2. Prerequisites**
 Before starting the project, make sure you have installed:
 - [Node.js](https://nodejs.org/en)
 
@@ -29,7 +29,7 @@ Then follow the instructions on the website:
 - then go to the **Setup** tab and in the **Configure your database access** click **Generate database credentials**
 - copy the generated .env file content and replace existing line in your **.env** file located in the folder **SwiftCodes** to copied/generated line.
 
-3. **Using API Endpoints**
+**3. Using API Endpoints**
 - While in the SwiftCodes folder, type and run:
 ```cmd
 npx ts-node src/index.ts
@@ -62,7 +62,7 @@ curl -X DELETE http://localhost:8080/v1/swift-codes/TESTTESTXXX
 
 If you want to terminate the script index.ts or any other .ts script, click **CTRL+C** while in the command line.
 
-4. **Testing the Application**
+**4. Testing the Application**
 To run integration tests, type and run the following command from the command line:
 ```cmd
 npm test -- index.test.ts
@@ -75,7 +75,7 @@ npm test -- storeData.test.ts
 
 If you want to terminate the index.ts script or any other .ts script, click **CTRL+C** while in the command line.
 
-5. **Parse SWIFT codes Data**
+**5. Parse SWIFT codes Data**
    - The project also includes a **storeData.ts** script that parses the excel file and sends it to the database.
    - While in the SwiftCodes folder you can run this script like this:
      ```cmd
