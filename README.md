@@ -2,7 +2,7 @@
 # SWIFT Codes API
 
 ## Project Description
-This project is a REST API for storing and sharing SWIFT data from a file. The application uses **TypeScript**, **Node.js**, **Express**, **Prisma** and **PostgreSQL**. The whole thing is not containerized using **Docker**, I couldn't get this step right.
+This project is a REST API for storing and sharing SWIFT data from a file. The application uses **TypeScript**, **Node.js**, **Express**, **Prisma** and **PostgreSQL**. **Prisma** was chosen for its strong type safety and developer-friendly API, which makes working with databases in TypeScript and JavaScript projects more efficient and error-free. Its powerful features like automatic migrations, performance optimization, and flexibility in supporting multiple databases make it an ideal choice for modern applications. The whole thing is not containerized using **Docker**, I couldn't get this step right.
 
 1. **Download the file from the repository**
 - Download the **SwiftCodes.zip** file, then unzip it.
